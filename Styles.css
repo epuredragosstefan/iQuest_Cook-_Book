@@ -1,0 +1,346 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #f9f9f9;
+}
+
+ul.icon
+{
+	list-style-type: none;
+}
+
+ul.icon li
+{
+	text-indent: -1.4em;
+}
+ul.icon li:before
+{
+	color: #db4d3f;
+	float: left;
+	width: 1.4em;
+}
+.listArrow {
+	color: #db4d3f;
+}
+.headerBar {
+	min-width: 320px;
+	max-width: 100%;
+	background-color: #d94e44;
+	font-size: 35px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#headerText {
+	color: #FFFFFF;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.menuBar {
+	min-width: 320px;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.menuBottomBorder {
+	min-width: 320px;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	height: 1px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	background-color: #d6d4d4;
+}
+.menuItem {
+	float: left;
+	height: 50px;
+	text-align: center;
+}
+.menuItem:nth-child(1) {
+	width: 49.85%;
+	color: #db4d3f;
+	padding-top: 15px;
+	text-align: center;
+}
+.menuItem:nth-child(2) {
+	width: 0.1%;
+	background-color: #d6d4d4;
+}
+.menuItem:nth-child(3) {
+	width: 49.85%;
+	padding-top: 15px;
+	text-align: center;
+}
+.recipeContent{
+	min-width: 320px;
+	max-width: 1000px;
+	width: 100%;
+	background-color: #f6f4f4;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	position: relative
+}
+.receipeSection{
+	min-width: 320px;
+	max-width: 1000px;
+	width: 100%;
+	float :left;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	position:relative;
+}
+.receipeSectionHeader{
+	min-width: 320px;
+	max-width: 990px;
+	width: 100%;
+	text-align: left;
+	display: block;
+	margin: 0;
+	height: 30px;
+	background-color: #db4d3f;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.receipeSectionHeaderText {
+	color: #FFFFFF;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.ItemSectiononHeader{
+	min-width: 320px;
+	max-width: 1000px;
+	width: 100%;
+	text-align: left;
+	display: block;
+	margin: 0 auto;
+	height: 30px;
+	background-color: #f9f9f9;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+input[type=text], placeholder {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    box-sizing: border-box;
+	max-width: 960px;
+}
+.ItemSectiononHeaderText{
+	color: #000000;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.padding{
+
+}
+textarea{
+	width:100%;
+	background-color: #FFFFFF;
+	border:0px;
+    padding-right: 10px;
+	max-width: 92%;
+	padding: 12px 20px;
+}
+
+.recipeOptions {
+	min-width: 320px;
+	max-width: 96%;
+	display: block;
+	margin: 0;
+}
+
+.recipeOption {
+	float: left;
+	height: 50px;
+	text-align: left;
+}
+.recipeOption:nth-child(1) {
+	width: 33.33%;
+	padding-top: 15px;
+	text-align: left;
+}
+.recipeOption:nth-child(2) {
+	width: 33.33%;
+	padding-top: 15px;
+	text-align: center;
+}
+.recipeOption:nth-child(3) {
+	width: 33.33%;
+	padding-top: 15px;
+	text-align: right;
+	margin: 0;
+}
+.ingredients{
+	width: 100%;
+	padding-top: 10px;
+	color: #000000;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+.ingredients {
+	min-width: 320px;
+	max-width: 96%;
+	display: block;
+	margin: 0;
+}
+@media only screen and (max-width: 700px) {
+    #unitOfLabel {
+        display: none;
+    }
+	#ingredientsOfDiv {
+        width :5%;
+    }
+	#ingredientsQtyDiv{
+		width: 15%;
+	}
+}
+@media only screen and (max-width: 700px) {
+    #ingredientsOfLabel {
+        display: none;
+    }
+	#ingredientsOfUnitDiv {
+        width :5%;
+    }
+	#ingredientsUnitDiv{
+		width: 20%;
+	}
+	#ingredientsAddDiv{
+		width: 20%;
+	}
+}
+.ingredientsOptions {
+	min-width: 320px;
+	max-width: 96%;
+	display: block;
+	margin: 0;
+}
+.ingredientsOption {
+	float: left;
+	height: 50px;
+	text-align: left;
+}
+.ingredientsOption:nth-child(1) {
+	width: 10%;
+	padding-top: 10px;
+	text-align: center;
+}
+.ingredientsOption:nth-child(2) {
+	width: 10%;
+	padding-top: 38px;
+	text-align: center;
+}
+.ingredientsOption:nth-child(3) {
+	width: 15%;
+	padding-top: 38px;
+	text-align: center;
+}
+.ingredientsOption:nth-child(4) {
+	width: 15%;
+	padding-top: 38px;
+	text-align: center;
+}
+.ingredientsOption:nth-child(5) {
+	width: 35%;
+	padding-top: 10px;
+	text-align: center;
+}
+.ingredientsOption:nth-child(6) {
+	width: 15%;
+	padding-top: 28px;
+	text-align: right;
+}
+.addIngredientsButton{
+	color:#db4d3f;
+	background-color: #FFFFFF;
+	border: thin solid #db4d3f;
+	padding: 10px;
+}
+.steps {
+	min-width: 320px;
+	max-width: 96%;
+	text-align: left;
+	display: block;
+	margin: 0;
+}
+.stepTextInput{
+	min-width: 320px;
+	max-width: 1000px;
+	width: 96%;
+	float :left;
+	text-align: left;
+	display: block;
+	margin: 0 auto;
+	height: 30px;
+	background-color: #f9f9f9;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.addNewStep{
+	min-width: 320px;
+	max-width: 960;
+	width: 92%;
+	height: 40px;
+	display: block;
+	text-align: center;
+	float: left;
+	margin: 0;
+	color:#db4d3f;
+	background-color: #FFFFFF;
+	border: thin solid #db4d3f;
+	margin-top: 250px;
+	margin-left: 20px;
+}
+.addNewStepText{
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.saveOptions {
+	min-width: 320px;
+	max-width: 100%;
+	display: block;
+	margin-bottom: 20px;
+}
+.saveOption {
+	float: left;
+	height: 40px;
+	text-align: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.saveOption:nth-child(1) {
+	width: 49%;
+	text-align: center;
+	color:#db4d3f;
+	background-color: #FFFFFF;
+	border: thin solid #db4d3f;
+}
+.saveOption:nth-child(2) {
+	width: 49.85%;
+	text-align: center;
+	color:#FFFFFF;
+	background-color: #db4d3f;
+	border: thin solid #db4d3f;
+}
+.saveMenuBar{
+	min-width: 320px;
+	max-width: 1000px;
+	width: 100%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	position: relative
+}

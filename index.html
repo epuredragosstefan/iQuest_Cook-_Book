@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Carte-Bucate</title>
+<link rel="stylesheet" href="Styles.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+<div class ="headerBar">
+  <p id ="headerText"> <i class="fas fa-utensils"></i>
+    <text> iQuest Cook Book</text>
+  </p>
+</div>
+<div class="menuBar">
+  <div class="menuItem"> <i class="fas fa-plus"></i>
+    <text>New recipe</text>
+  </div>
+  <div class="menuItem"> </div>
+  <div class="menuItem">
+    <select>
+      <option selected> Select a recipe... </option>
+      <option>Scambled egg omlette</option>
+    </select>
+  </div>
+</div>
+<div class="menuBottomBorder"></div>
+<div class="recipeContent">
+  <div class="receipeSection">
+    <div class="receipeSectionHeader">
+      <p class="receipeSectionHeaderText"> <i class="fas fa-info"></i>
+        <text>About</text>
+      </p>
+    </div>
+    <div class="ItemSectiononHeader" >
+      <p calss="ItemSectiononHeaderText">
+        <text>Recipe title</text>
+        <input type="text" placeholder="Title">
+        <text>Description</text>
+      <div class="padding">
+        <textarea name="Text1" placeholder="About the recipe" cols="100" rows="15"></textarea>
+      </div>
+      </p>
+      <div class="recipeOptions">
+        <div class="recipeOption">
+          <text>Portions</text>
+          <select>
+            <option selected> 1 </option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select>
+        </div>
+        <div class="recipeOption">
+          <text>Time (mins) </text>
+          <select>
+            <option selected> 5 </option>
+            <option>10</option>
+            <option>15</option>
+            <option>20</option>
+            <option>30</option>
+            <option>45</option>
+            <option>60</option>
+            <option>90</option>
+            <option>120</option>
+          </select>
+        </div>
+        <div class="recipeOption">
+          <text>Dificulty </text>
+          <select>
+            <option selected> 1 </option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="receipeSection">
+    <div class="receipeSectionHeader">
+      <p class="receipeSectionHeaderText"> <i class="fas fa-list"></i>
+        <text>Ingredients</text>
+      </p>
+    </div>
+    <div  class="ingredients">
+      <ul class="icon">
+        <li><i class="fas fa-angle-double-right listArrow"></i> 300 g brown rice</li>
+        <li><i class="fas fa-angle-double-right listArrow"></i> 2 pc red onions</li>
+        <li><i class="fas fa-angle-double-right listArrow"></i> 2 pc red onions</li>
+        <li><i class="fas fa-angle-double-right listArrow"></i> 1 pc fresh red chilli</li>
+        <li><i class="fas fa-angle-double-right listArrow"></i> 25 g unsalted butter</li>
+        <li><i class="fas fa-angle-double-right listArrow"></i> 6 pc large free-range eggs</li>
+      </ul>
+    </div>
+    <div class="ingredientsOptions">
+      <div class="ingredientsOption" id="ingredientsQtyDiv">
+        <input type="text" placeholder="QTY" size="20">
+      </div>
+      <div class="ingredientsOption" id="ingredientsOfDiv">
+        <text id="unitOfLabel">of</text>
+      </div>
+      <div class="ingredientsOption" id="ingredientsUnitDiv">
+        <select>
+          <option selected> Unit </option>
+          <option>g</option>
+          <option>Kg</option>
+          <option>pc</option>
+          <option>ml</option>
+          <option>l</option>
+          <option>tea spoon(s)</option>
+        </select>
+      </div>
+      <div class="ingredientsOption" id="ingredientsOfUnitDiv">
+        <text id="ingredientsOfLabel">of</text>
+      </div>
+      <div class="ingredientsOption" >
+        <input type="text" placeholder="Ingredient" size="20">
+      </div>
+      <div class="ingredientsOption" id="ingredientsAddDiv"> <i class="fas fa-plus-square addIngredientsButton"></i> </div>
+    </div>
+  </div>
+  <div class="receipeSection">
+    <div class="receipeSectionHeader">
+      <p class="receipeSectionHeaderText"> <i class="fas fa-list-ol "></i>
+        <text>Steps</text>
+      </p>
+    </div>
+    <div class="steps">
+      <ol>
+        <li>Cook the rice in a pan of boiling salted wather according to the packet instruction, then drain and refresh under
+cold wather, leaving it in the colander.</li>
+        <li>At the same time, poach the fish in a large pan of simmering salted wather on a medium heat for 10 minutes, then
+carefully remouve with a slotted spoon. Turn the heat up under the poaching wather and bring back to a good simmer </li>
+        <li>Meanwhile, peel the onions and finely slice with the red chili (deseed if you like) and coriander stalks.
+Peel and finely chop the garlic and ginger. Place it all in a large frying pan on a medium heat with 1 tablespoon of oil and the butter, and cook for 10 minutes, or until soft but not coloured, stirring occasionally.</li>
+      </ol>
+    </div>
+	 <div class="stepTextInput" >
+      <text>Step</text>
+     <br>
+		 <textarea name="Text1" placeholder="Step description" cols="100" rows="15"></textarea>
+	  </div>
+	  
+	  <div class="addNewStep">
+		  <p class="addNewStepText">
+		  <i class="fas fa-plus-square "></i>
+		  <text>Add step</text>
+		  </p>
+	  </div> 
+  </div>
+	
+</div>
+	<div class="saveMenuBar">
+	<div class="saveOptions">
+      <div class="saveOption">
+        <p class="addNewStepText">
+		  <i class="fas fa-trash-alt "></i>
+		  <text>Cancel</text>
+		  </p>
+      </div>
+      <div class="saveOption">
+        <p class="addNewStepText">
+		  <i class="fas fa-save "></i>
+		  <text>Save Receipe</text>
+		  </p>
+      </div>
+	</div>
+	</div>
+</body>
+</html>
